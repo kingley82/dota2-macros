@@ -1,6 +1,6 @@
 ﻿MsgBox, , INVOKER, Invoker macro started`nTo exit press Ctrl+Esc`nAuthor: https://github.com/kingley82
 
-DELAY := 3.00 ; It is necessary to avoid problems with the server. If the macro does not work correctly, try increasing this value.
+DELAY := 5.00 ; It is necessary to avoid problems with the server. If the macro does not work correctly, try increasing this value.
 
 QUAS := "q" ; Button assigned to the first sphere (Quas). If yours is different, change it here
 WEX := "w" ; Button assigned to the second sphere (Wex). If yours is different, change it here
@@ -26,10 +26,10 @@ Space & 1:: ; Cast SunStrike
 		Sleep, DELAY * 10.0
 	}
 	Send {%INVOKE%}
-	Sleep, DELAY * 10.0
+	Sleep, DELAY * 20.0
 	Send {%CAST%}
 	if (AUTOCAST = 0) {
-		Sleep, DELAY * 10.0
+		Sleep, DELAY * 20.0
 		Click
 	}
 Return
@@ -40,7 +40,7 @@ Return
 		Sleep, DELAY * 10.0
 	}
 	Send {%INVOKE%}
-	Sleep, DELAY * 10.0
+	Sleep, DELAY * 20.0
 	Send !{%CAST%}
 Return
 
@@ -58,7 +58,7 @@ Space & 2:: ; Cast EMP
 		Sleep, DELAY * 10.0
 	}
 	Send {%INVOKE%}
-	Sleep, DELAY * 10.0
+	Sleep, DELAY * 20.0
 	Send {%CAST%}
 	if (AUTOCAST = 0) {
 		Sleep, DELAY * 10.0
@@ -84,7 +84,7 @@ Space & 3:: ; Cast Meteor
 	Send {%WEX%}
 	Sleep, DELAY * 10
 	Send {%INVOKE%}
-	Sleep, DELAY * 10.0
+	Sleep, DELAY * 20.0
 	Send {%CAST%}
 	if (AUTOCAST = 0) {
 		Sleep, DELAY * 10.0
@@ -110,7 +110,7 @@ Space & 4:: ; Cast Forges
 	Send {%QUAS%}
 	Sleep, DELAY * 10
 	Send {%INVOKE%}
-	Sleep, DELAY * 10.0
+	Sleep, DELAY * 20.0
 	Send {%CAST%}
 	if (AUTOCAST = 0) {
 		Sleep, DELAY * 10.0
@@ -132,7 +132,7 @@ Space & 5:: ; Cast Cold Snap
 		Sleep, DELAY * 10.0
 	}
 	Send {%INVOKE%}
-	Sleep, DELAY * 10.0
+	Sleep, DELAY * 20.0
 	Send {%CAST%}
 	if (AUTOCAST = 0) {
 		Sleep, DELAY * 10.0
@@ -158,7 +158,7 @@ Space & 6:: ; Cast Ghost Walk
 	Send {%QUAS%}
 	Sleep, DELAY * 10
 	Send {%INVOKE%}
-	Sleep, DELAY * 10.0
+	Sleep, DELAY * 20.0
 	Send {%CAST%}
 	if (AUTOCAST = 0) {
 		Sleep, DELAY * 10.0
@@ -184,7 +184,7 @@ Space & 7:: ; Cast Alacrity
 	Send {%WEX%}
 	Sleep, DELAY * 10
 	Send {%INVOKE%}
-	Sleep, DELAY * 10.0
+	Sleep, DELAY * 20.0
 	Send {%CAST%}
 	if (AUTOCAST = 0) {
 		Sleep, DELAY * 10.0
@@ -210,7 +210,7 @@ Space & 8:: ; Cast Blast
 	Send {%QUAS%}
 	Sleep, DELAY * 10
 	Send {%INVOKE%}
-	Sleep, DELAY * 10.0
+	Sleep, DELAY * 20.0
 	Send {%CAST%}
 	if (AUTOCAST = 0) {
 		Sleep, DELAY * 10.0
@@ -236,7 +236,7 @@ Space & 9:: ; Cast Tornado
 	Send {%QUAS%}
 	Sleep, DELAY * 10
 	Send {%INVOKE%}
-	Sleep, DELAY * 10.0
+	Sleep, DELAY * 20.0
 	Send {%CAST%}
 	if (AUTOCAST = 0) {
 		Sleep, DELAY * 10.0
@@ -262,7 +262,7 @@ Space & 0:: ; Cast Ice Wall
 	Send {%QUAS%}
 	Sleep, DELAY * 10
 	Send {%INVOKE%}
-	Sleep, DELAY * 10.0
+	Sleep, DELAY * 20.0
 	Send {%CAST%}
 	if (AUTOCAST = 0) {
 		Sleep, DELAY * 10.0
