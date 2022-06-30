@@ -1,4 +1,4 @@
-﻿MsgBox, , ARC WARDEN, Acr Warden macro started`nTo exit press Ctrl+Esc`nAuthor: https://github.com/kingley82
+﻿MsgBox, , ARC WARDEN, Arc Warden macro started`nTo exit press Ctrl+Esc`nAuthor: https://github.com/kingley82
 
 DELAY := 1.50 ; It is necessary to avoid problems with the server. If the macro does not work correctly, try increasing this value.
 
