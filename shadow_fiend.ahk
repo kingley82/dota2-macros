@@ -10,8 +10,6 @@ REQUIEM := "r" ; Button assigned to the sixth ability (Requiem of souls). If you
 BLINK := "z" ; Button assigned to the item "Blink Dagger". If yours is different, change it here
 EUL := "x" ; Button assigned to the item "Eul's Scepter or Divinity" or "Wind Waker". If yours is different, change it here
 
-HAS_ARCANE_BLINK := 0 ; If you have item "Arcane Blink", press ALT+1. Don't change this value
-
 AUTOCAST := 1 ; If you have autocast enabled in your settings, set this variable to 1. Otherwise set 0
 
 DELAY2 := 840 ; Necessary for procast
