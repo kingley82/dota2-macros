@@ -1,6 +1,6 @@
 ﻿MsgBox, , INVOKER, Invoker macro started`nTo exit press Ctrl+Esc`nAuthor: https://github.com/kingley82
 
-DELAY := 5.00 ; It is necessary to avoid problems with the server. If the macro does not work correctly, try increasing this value.
+DELAY := 6.50 ; It is necessary to avoid problems with the server. If the macro does not work correctly, try increasing this value.
 
 QUAS := "q" ; Button assigned to the first sphere (Quas). If yours is different, change it here
 WEX := "w" ; Button assigned to the second sphere (Wex). If yours is different, change it here
