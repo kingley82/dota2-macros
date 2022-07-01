@@ -39,6 +39,14 @@ This repository contains macros for the computer game Dota 2. They are allowed t
 - Pressing `ALT+Z` will increase the delay time specified in `DELAY2`, allowing Arcane Blink to be applied.
 - To exit the macro, press the key combination `Ctrl + Esc`
 
+### Kunkka
+- The variable `DELAY` contains the delay between keystrokes. If you're having problems (eg spells "outrun" each other) try increasing the setting
+- The `SHIP_DELAY` variable contains the delay time for casting Torrent
+- The variables `TORRENT`, `MARK` and `SHIP` contain the buttons for applying these abilities. If yours are different, change them in the script
+- The `AUTOCAST` variable is initially set to 1. If you have Quick Cast enabled in your settings, do not change this variable. Otherwise set to 0
+- Pressing the combination `SPACE + E` will summon X Marks The Spot, Ghostship and Torrent to the specified point
+- ATTENTION: Ghostship and Torrent abilities are applied at the point where the cursor was at the moment the combination was pressed. To remove this, delete lines 16, 23, 30
+
 
 ## RU - Инструкции и предупреждения
 В данном репозитории находятся макросы для компьютерной игры Дота 2. Их разрешается использовать и распространять в соответствии с лицензией Apache-2.0. Данные макросы созданы в ознакомительно-познавательных целях, и в этих же целях должны быть использованы. Я не несу ответственности за ущерб вашему устройству или аккаунту, не несу ответственности за бан, понижение порядочности, попадание в low priority и т.д. По всем вопросам обращайтесь в мой телеграм @a352642
@@ -80,3 +88,12 @@ This repository contains macros for the computer game Dota 2. They are allowed t
 - Нажатие `SPACE+Z` вызовет Blink Dagger / Arcane Blink и действия из предыдущего пункта
 - Нажатие `ALT+Z` увеличит время задержки в переменной `DELAY2` что позволит без проблем применять Arcane Blink
 - Чтобы завершить работу макроса, нажмите комбинацию `Ctrl + Esc`
+
+### Kunkka
+
+- В переменной `DELAY` находится задержка между нажатиями. Если у вас возникают проблемы (например способности "опережают" друг друга) попробуйте увеличить это значение
+- В переменной `SHIP_DELAY` находится время задержки между способностями Ghostship и Torrent
+- Переменные `TORRENT`, `MARK` и `SHIP` содержат кнопки вызова этих способностей. Если они у вас отличаются, измените их в скрипте
+- Переменная `AUTOCAST` по умолчанию стоит в положении 1. Если у вас в настройках включено Быстрое применение то не изменяйте ее, в противном случае поставьте значение 0
+- Нажатие комбинации клавиш `SPACE+E` вызовет по порядку X Marks The Spot, Ghostship и Torrent
+- ВНИМАНИЕ: Способности Ghostship и Torrent применяются по точке, на которой был курсор в момент нажатия комбинации. Чтобы убрать это, удалите строки 16, 23, 30
