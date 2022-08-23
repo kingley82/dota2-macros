@@ -1,4 +1,6 @@
-﻿MsgBox, , KUNKKA, Kunkka macro started`nTo exit press Ctrl+Esc`nAuthor: https://github.com/kingley82
+;Copyright 2022 KingleyStudio Licensed under the Apache License, Version 2.0 (the «License»);
+
+MsgBox, , KUNKKA, Kunkka macro started`nTo exit press Ctrl+Esc`nAuthor: https://github.com/kingley82
 
 DELAY := 1.50 ; It is necessary to avoid problems with the server. If the macro does not work correctly, try increasing this value.
 
